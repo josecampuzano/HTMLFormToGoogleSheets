@@ -1,0 +1,70 @@
+#leadForm {
+    background-color: #000;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 500px;
+    color: #fff;
+    width: 50%;
+
+  }
+  
+  #leadForm h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus {
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #777;
+  }
+  
+  .parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* outline: 1px solid black; */
+
+  }
